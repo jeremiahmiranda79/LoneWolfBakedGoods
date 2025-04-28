@@ -4,7 +4,7 @@ export const COOKIES = [
     name: 'Chocolate Chip Cookies (12)',
     price: 7.50,
     description: 'One dozen Chocolate Chip Cookies. made with semi-sweet chocolate chips.',
-    images: './images/products/default_product.png',
+    images: './images/products/chocolate-chip.jpg',
     category: 'Cookies',
   },
   {
@@ -12,7 +12,7 @@ export const COOKIES = [
     name: 'Sugar Cookies (12)',
     price: 7.50,
     description: 'One dozen Sugar Cookies. Plain or can be made with your choice of colored sanding sugar on the outside.',
-    images: './images/products/default_product.png',
+    images: './images/products/sugar-cookies.jpg',
     category: 'Cookies',
   },
   {
@@ -20,7 +20,7 @@ export const COOKIES = [
     name: 'White Chocolate Macadamia Nut Cookies (12)',
     price: 7.50,
     description: 'One dozen White Chocolate Macadamia Nut Cookies.',
-    images: './images/products/default_product.png',
+    images: './images/products/white-chocolate-macadamia.jpg',
     category: 'Cookies',
   },
   {
@@ -41,10 +41,10 @@ export const COOKIES = [
   },
   {
     id: 6,
-    name: 'Snickerdoodle Cookies (12)',
+    name: 'Cinnamon Cookies (12)',
     price: 7.50,
-    description: 'One dozen Sugar Cookies rolled in cinnamon and sugar.',
-    images: './images/products/default_product.png',
+    description: 'NEED A DESCRIPTION!!!.',
+    images: './images/products/cinnamon-cookies.jpg',
     category: 'Cookies',
   },
   {
@@ -71,4 +71,11 @@ export const COOKIES = [
     images: './images/products/default_product.png',
     category: 'Cookies',
   },
+  {id: 10,
+    name: 'Orange Cookies (12)',
+    price: 7.50,
+    description: 'NEED A DESCRIPTION!!!.',
+    images: './images/products/orange-cookies.jpg',
+    category: ''
+  }
 ]
