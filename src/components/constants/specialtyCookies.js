@@ -1,11 +1,11 @@
 export const SPECIALTY_COOKIES = [
   {
     id: 1,
-    name: 'Cannoli Cookies (12)',
+    name: 'Orange Cookies (12)',
     price: 10.00,
-    description: 'One dozen Cannoli Cookies. Made with traditional cannoli ingredients then drizzled with milk chocolate.',
-    images: './images/products/default_product.png',
-    category: 'Specialty Cookies',
+    description: 'NEED A DESCRIPTION!!!.',
+    images: './images/products/orange-cookies.jpg',
+    category: 'Specialty Cookies'
   },
   {
     id: 2,
@@ -17,9 +17,9 @@ export const SPECIALTY_COOKIES = [
   },
   {
     id: 3,
-    name: 'Italian Holiday Cookies (12)',
+    name: 'Cannoli Cookies (12)',
     price: 10.00,
-    description: 'One dozen Italian Holiday Cookies. Italian Sugar Cookies with vanilla frosting and colored sprinkles.',
+    description: 'One dozen Cannoli Cookies. Made with traditional cannoli ingredients then drizzled with milk chocolate.',
     images: './images/products/default_product.png',
     category: 'Specialty Cookies',
   },
@@ -28,6 +28,14 @@ export const SPECIALTY_COOKIES = [
     name: 'Peanut Butter Cookies with a Hersheys Kiss (12)',
     price: 10.00,
     description: 'One dozen Peanut Butter Cookies with a Hersheys Kiss.',
+    images: './images/products/default_product.png',
+    category: 'Specialty Cookies',
+  },
+  {
+    id: 5,
+    name: 'Italian Holiday Cookies (12)',
+    price: 10.00,
+    description: 'One dozen Italian Holiday Cookies. Italian Sugar Cookies with vanilla frosting and colored sprinkles.',
     images: './images/products/default_product.png',
     category: 'Specialty Cookies',
   },

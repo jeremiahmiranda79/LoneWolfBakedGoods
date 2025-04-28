@@ -70,12 +70,5 @@ export const COOKIES = [
     description: 'One dozen Pumpkin Spice Chip Cookies. Like a chocolate chip cookie but with pumpkin spice chips.',
     images: './images/products/default_product.png',
     category: 'Cookies',
-  },
-  {id: 10,
-    name: 'Orange Cookies (12)',
-    price: 7.50,
-    description: 'NEED A DESCRIPTION!!!.',
-    images: './images/products/orange-cookies.jpg',
-    category: ''
   }
 ]

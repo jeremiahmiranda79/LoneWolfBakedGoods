@@ -8,7 +8,7 @@ import {SPECIALTY_ITEMS} from '../constants/specialtyItems';
 
 const SpecialtyItems = () => {
   return (
-    <Container style={{marginBottom: '20px'}}>
+    <Container id={PRODUCT_CATEGORIES[3].id} className='anchor' style={{marginBottom: '20px'}}>
       <h1 className='Title' style={{marginTop: '10px', marginBottom: '10px'}}>{PRODUCT_CATEGORIES[3].name}</h1>
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
         {SPECIALTY_ITEMS.map((item) => (

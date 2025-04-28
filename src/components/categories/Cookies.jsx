@@ -7,9 +7,10 @@ import Container from 'react-bootstrap/Container';
 import {PRODUCT_CATEGORIES} from '../constants/categories';
 import {COOKIES} from '../constants/cookies';
 
+
 const Cookies = () => {
   return (
-    <Container >
+    <Container id={PRODUCT_CATEGORIES[0].id} className='anchor'>
       <h1 className='Title' style={{marginTop: '10px', marginBottom: '10px'}}>{PRODUCT_CATEGORIES[0].name}</h1>
       {/* <Image src="/images/categories/app-wings.webp" fluid alt={PRODUCT_CATEGORIES[4].name}/> */}
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">

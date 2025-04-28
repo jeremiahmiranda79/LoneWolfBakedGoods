@@ -15,9 +15,7 @@ const Header = () => {
           <label htmlFor="sidebar-active" className="close-sidebar-button">
             <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
           </label>
-          <a className="home-link" href="/">
-          <img src="/images/icons-logos/logo-hoz-1.png" alt="Lone Wolf Baked Goods logo"/>
-          </a> 
+          <a className="home-link" href="/"><img src="/images/icons-logos/logo-hoz-1.png" alt="Lone Wolf Baked Goods logo"/></a> 
           <a href="/">Home</a> 
           <a href="/menu">Menu</a> 
           <a href="/delivery">Delivery</a>
