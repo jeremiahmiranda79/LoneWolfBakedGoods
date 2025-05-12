@@ -1,7 +1,6 @@
 import React from 'react';
-import {PRODUCT_CATEGORIES} from '../constants/categories';
+import {PRODUCT_CATEGORIES} from '../../constants/categories.js';
 import '../../css/category_bar.css';
-
 const CategoryBar = () => {
   return (
     <div className="main-container">
@@ -16,5 +15,4 @@ const CategoryBar = () => {
     </div>
   );
 };
-
 export default CategoryBar;

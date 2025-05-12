@@ -1,6 +1,5 @@
 import React from 'react';
-import {INFORMATION} from '../constants/information';
-
+import {INFORMATION} from '../../constants/information.js';
 const Information = () => {
   return (
     <>
@@ -17,5 +16,4 @@ const Information = () => {
     </>
   );
 };
-
 export default Information;

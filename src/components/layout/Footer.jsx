@@ -1,21 +1,17 @@
 import React from 'react';
-import {INFORMATION} from './../constants/information';
+import {INFORMATION} from '../../constants/information.js';
 import '../../css/footer.css';
-
 const Footer = () => {
   return (
     <div className='BottomNavBar'>
       <footer className="py-1 pt-1">
         <p className='x' style={{fontWeight: 'bold', textAlign: 'center', marginBottom: '0px', marginTop: '10px'}}>{INFORMATION[0].llc}</p>
-
         <a href={INFORMATION[0].phone_link}style={{textDecoration: 'none', color: 'inherit', textAlign: 'center'}}>
           <p className='x' style={{marginBottom: '0px'}}>{INFORMATION[0].phone}</p>
         </a>
-
         <a href={INFORMATION[0].email_link}style={{textDecoration: 'none', color:'inherit', textAlign: 'center'}}>
           <p className='x'>{INFORMATION[0].email}</p>
         </a>
-
         <p style={{textAlign: 'center'}} >
           <a 
             href={INFORMATION[0].face_book_link}
@@ -51,5 +47,4 @@ const Footer = () => {
     </div>
   );
 };
-
 export default Footer;

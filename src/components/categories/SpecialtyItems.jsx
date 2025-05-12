@@ -3,9 +3,8 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-import {PRODUCT_CATEGORIES} from '../constants/categories';
-import {SPECIALTY_ITEMS} from '../constants/specialtyItems';
-
+import {PRODUCT_CATEGORIES} from '../../constants/categories';
+import {SPECIALTY_ITEMS} from '../../constants/specialtyItems';
 const SpecialtyItems = () => {
   return (
     <Container id={PRODUCT_CATEGORIES[3].id} className='anchor' style={{marginBottom: '20px'}}>
@@ -26,5 +25,4 @@ const SpecialtyItems = () => {
     </Container>
   );
 };
-
 export default SpecialtyItems;

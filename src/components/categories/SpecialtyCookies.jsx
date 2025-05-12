@@ -3,9 +3,8 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-import {PRODUCT_CATEGORIES} from '../constants/categories';
-import {SPECIALTY_COOKIES} from '../constants/specialtyCookies';
-
+import {PRODUCT_CATEGORIES} from '../../constants/categories';
+import {SPECIALTY_COOKIES} from '../../constants/specialtyCookies';
 const SpecialtyCookies = () => {
   return (
     <Container id={PRODUCT_CATEGORIES[2].id} className='anchor'>
@@ -26,5 +25,4 @@ const SpecialtyCookies = () => {
     </Container>
   );
 };
-
 export default SpecialtyCookies;

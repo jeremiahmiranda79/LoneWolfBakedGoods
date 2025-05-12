@@ -6,11 +6,9 @@
   --box-shadow: 0 5px 25px rgb(2, 2, 2, 0.1);
   --text-shadow: 0 5px 25px rgb(2, 2, 2, 0.1);
 }
-
 .anchor {
   scroll-margin-top: 150px;
 }
-
 .main-container {
   position: fixed;
   top: 85px;

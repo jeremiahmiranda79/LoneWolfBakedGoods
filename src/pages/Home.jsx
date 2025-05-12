@@ -1,15 +1,14 @@
 import React from 'react';
 import Information from '../components/layout/Information';
-import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import '../css/carousel.css';
-
+import 'bootstrap/dist/css/bootstrap.css';
 const Home = () => {
   return (
-    <div style={{margin: '100px 10px 10px 10px'}}>
+    <div style={{margin: '100px 10px 10px 10px', textAlign: 'center'}}>
       <h1 rel="preload" style={{textAlign: 'center'}}>Welcome to Lone Wolf Baked Goods</h1>
       <Information/>
-      <h2 style={{textAlign: 'center'}}>DESCRIBE THE CAROUSEL!!!!</h2>
+      <h2>DESCRIBE THE CAROUSEL</h2>
       <center>
         <Carousel>
           <Carousel.Item>
@@ -95,5 +94,4 @@ const Home = () => {
     </div>
   );
 };
-
 export default Home;
